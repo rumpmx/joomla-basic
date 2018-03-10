@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 3.0//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/1.6/template-install.dtd"  >
+<extension version="3.1" type="template" client="site">
+	<name>Mi Plantilla</name>
+	<creationDate>2014/10/29</creationDate>
+	<author>Tu nombre (@TuTwitter)</author>
+	<authorEmail>tuemail@tusitio.com</authorEmail>
+	<authorUrl>https://tusitio.com</authorUrl>
+	<copyright>Copyright (C) 2014 Tu empresa</copyright>
+	<license>GPL</license>
+	<version>1.0.0</version>
+	<description>Descripción de la plantilla</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+	</files>
+	<positions>
+		<position>mainmenu</position>
+		<position>left</position>
+		<position>right</position>
+	</positions>
+</extension>
