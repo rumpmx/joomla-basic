@@ -97,10 +97,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+* {
+    box-sizing: border-box;
+}
 
+header {
+    background: #ccc;
+}
+    .logo {
+        background: #ff9;
+    }
+    .mainmenu {
+        background: #ffc;
+    }
 
-
-
+.main {}
+    .content {}
+    .left {
+        background: #fc9;
+    }
+    .right {
+        background: #cff;
+    }
+footer {
+    background: #ccc;
+}
 
 
 
