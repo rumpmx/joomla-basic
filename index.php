@@ -1,4 +1,7 @@
-<?php defined( '_JEXEC' ) or die( 'Restricted access' );?>
+<?php defined( '_JEXEC' ) or die( 'Restricted access' );
+    $app = JFactory::getApplication(); // almacena todos los datos del sitio
+    $menu = $app->getMenu(); // almacena los ID de cada menú de nuestro sitio
+?>
 <!doctype html>
 <html   class="no-js" 
         xmlns="http://www.w3.org/1999/xhtml" 
@@ -33,6 +36,12 @@
                 <jdoc:include type="modules" name="mainmenu" style="xhtml" />
             </nav>
         </header>
+
+        <?php if ($menu->getActive() == $menu->getDefault()) { ?>
+            <section class="youtube">
+                 <iframe width="1280" height="720" src="https://www.youtube.com/embed/EfsOibCaQ-k?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </section>
+        <?php } ?>
         
         <section class="main">
             <article class="content">
