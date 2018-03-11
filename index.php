@@ -8,8 +8,8 @@
         <jdoc:include type="head" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="/<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
-        <link rel="stylesheet" href="/<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
+        <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
+        <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
 
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
@@ -30,19 +30,19 @@
                 <p>Lorem ipsum dolor sit amet.</p>
             </div>
             <nav class="mainmenu">
-                MENU PRINCIPAL
+                <jdoc:include type="modules" name="mainmenu" style="xhtml" />
             </nav>
         </header>
         
         <section class="main">
             <article class="content">
-                CONTENIDO
+                <jdoc:include type="component" />
             </article>
             <aside class="left">
-                ACCESO DE USUARIOS
+                <jdoc:include type="modules" name="left" style="xhtml" />
             </aside>
             <aside class="right">
-                ARTÍCULOS RECIENTES
+                <jdoc:include type="modules" name="right" style="xhtml" />
             </aside>
         </section>
 
