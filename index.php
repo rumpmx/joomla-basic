@@ -1,5 +1,9 @@
+<?php defined( '_JEXEC' ) or die( 'Restricted access' );?>
 <!doctype html>
-<html class="no-js" lang="">
+<html   class="no-js" 
+        xmlns="http://www.w3.org/1999/xhtml" 
+        xml:lang="<?php echo $this->language; ?>" 
+        lang="<?php echo $this->language; ?>" >
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
