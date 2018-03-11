@@ -23,8 +23,19 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <header>
+            <div class="logo">
+                <img src="img/logo.png" alt="Logotipo">
+                <h1>Localhost</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <nav class="mainmenu">
+                MENU PRINCIPAL
+            </nav>
+        </header>
+        
+        
+
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
