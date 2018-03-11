@@ -141,7 +141,12 @@ footer {
     background: #ccc;
 }
 
-
+iframe {
+    max-width: 100%;
+}
+.youtube iframe {
+     height: 315px;
+}
 
 
 
@@ -254,6 +259,9 @@ footer {
     .left, .right {
         width: 50%;
     }
+    .youtube iframe {
+          height: 360px;
+     }
 }
 
 @media only screen and (min-width: 48em) {
@@ -262,6 +270,9 @@ footer {
         justify-content: space-between;
         align-items: center;
     }
+    .youtube iframe {
+          height: 480px;
+     }
 }
 
 @media only screen and (min-width: 60em) {
@@ -280,6 +291,9 @@ footer {
         order: 3;
         width: 25%;
     }
+    .youtube iframe {
+          height: 720px;
+     }
 }
 
 @media only screen and (min-width: 80em) {
@@ -295,6 +309,10 @@ footer {
     .left, .right {
         width: 20%;
     }
+    .youtube {
+          margin: 0 auto;
+          max-width: 80em;
+     }
 }
 
 @media print,
