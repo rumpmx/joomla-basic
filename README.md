@@ -8,3 +8,4 @@ Simplemente intenta seguir los pasos para la creación de la plantilla báisca a
 Puedes descargar cada estado de la plantilla en estos links:
 
 - [Zip de la plantilla hasta la parte 2 del tutorial](https://github.com/rumpmx/joomla-basic/archive/2daParte.zip)
+- [Zip de la parte 3, 1er cambio del tutorial](https://github.com/rumpmx/joomla-basic/archive/3raParte-1.zip)
