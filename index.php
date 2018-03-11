@@ -34,7 +34,21 @@
             </nav>
         </header>
         
-        
+        <section class="main">
+            <article class="content">
+                CONTENIDO
+            </article>
+            <aside class="left">
+                ACCESO DE USUARIOS
+            </aside>
+            <aside class="right">
+                ARTÍCULOS RECIENTES
+            </aside>
+        </section>
+
+        <footer>
+            PIE DE PÁGINA
+        </footer>
 
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
