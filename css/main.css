@@ -103,9 +103,14 @@ textarea {
 
 header {
     background: #ccc;
+    display: flex;
+    flex-direction: column;
 }
     .logo {
         background: #ff9;
+        height: 80px;
+        overflow: hidden;
+        text-align: center;
     }
     .mainmenu {
         background: #ffc;
@@ -115,6 +120,19 @@ header {
     .content {}
     .left {
         background: #fc9;
+    }
+    .mainmenu h3 {
+        display: none;
+    }
+    .mainmenu ul {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        list-style: none; /* no viene en el tutorial */
+    }
+    .mainmenu li {
+        padding: 0 1em;
     }
     .right {
         background: #cff;
@@ -226,6 +244,57 @@ footer {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content {
+        width: 100%;
+    }
+    .left, .right {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 48em) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .main {
+        flex-wrap: nowrap;
+    }
+    .content {
+       order: 2;
+       width: 50%;
+    }
+    .left {
+        order: 1;
+        width: 25%;
+    }
+    .right {
+        order: 3;
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 80em) {
+    header, 
+    .main, 
+    footer {
+        margin: 0 auto;
+        max-width: 80em;
+    }
+    .content {
+       width: 60%;
+    }
+    .left, .right {
+        width: 20%;
+    }
 }
 
 @media print,
