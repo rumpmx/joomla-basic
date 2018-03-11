@@ -25,7 +25,7 @@
 
         <header>
             <div class="logo">
-                <img src="img/logo.png" alt="Logotipo">
+                <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/logo.png" alt="Logotipo">
                 <h1>Localhost</h1>
                 <p>Lorem ipsum dolor sit amet.</p>
             </div>
